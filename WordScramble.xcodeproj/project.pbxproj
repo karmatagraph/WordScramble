@@ -11,6 +11,8 @@
 		4810EA63282A151D0023FA22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810EA62282A151D0023FA22 /* ContentView.swift */; };
 		4810EA65282A15200023FA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4810EA64282A15200023FA22 /* Assets.xcassets */; };
 		4810EA68282A15200023FA22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4810EA67282A15200023FA22 /* Preview Assets.xcassets */; };
+		48BC06EE282A210B005A2CC0 /* demoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC06ED282A210B005A2CC0 /* demoTest.swift */; };
+		48BC06F0282A29FF005A2CC0 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 48BC06EF282A29FF005A2CC0 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4810EA62282A151D0023FA22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4810EA64282A15200023FA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4810EA67282A15200023FA22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48BC06ED282A210B005A2CC0 /* demoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoTest.swift; sourceTree = "<group>"; };
+		48BC06EF282A29FF005A2CC0 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				4810EA60282A151D0023FA22 /* WordScrambleApp.swift */,
 				4810EA62282A151D0023FA22 /* ContentView.swift */,
+				48BC06EF282A29FF005A2CC0 /* start.txt */,
 				4810EA64282A15200023FA22 /* Assets.xcassets */,
 				4810EA66282A15200023FA22 /* Preview Content */,
+				48BC06ED282A210B005A2CC0 /* demoTest.swift */,
 			);
 			path = WordScramble;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4810EA68282A15200023FA22 /* Preview Assets.xcassets in Resources */,
+				48BC06F0282A29FF005A2CC0 /* start.txt in Resources */,
 				4810EA65282A15200023FA22 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BC06EE282A210B005A2CC0 /* demoTest.swift in Sources */,
 				4810EA63282A151D0023FA22 /* ContentView.swift in Sources */,
 				4810EA61282A151D0023FA22 /* WordScrambleApp.swift in Sources */,
 			);
